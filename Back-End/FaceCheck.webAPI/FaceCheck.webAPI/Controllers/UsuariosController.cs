@@ -44,7 +44,7 @@ namespace FaceCheck.webAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
        
         public IActionResult ListarTodos()
         {
@@ -76,7 +76,7 @@ namespace FaceCheck.webAPI.Controllers
         }
 
         [HttpGet("{idUsuario}")]
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         public IActionResult Encontrar(int id)
         {
             try

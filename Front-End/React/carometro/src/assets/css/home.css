@@ -24,6 +24,8 @@
   margin-top: 100px;
 }
 
+
+
 a {
   text-decoration: none;
 }
@@ -37,6 +39,7 @@ a {
   align-items: center;
   margin-right: 30px;
   color: white;
+  border: 1px solid #000;
 }
 
 .sala_texto {

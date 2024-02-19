@@ -31,7 +31,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 38.7vmax
+    margin-left: 41vmax
 }
 
 
@@ -81,7 +81,7 @@
     color: white;
     background-color: #183861;
     border: none;
-    margin-left: 3vh;
+    /* margin-left: 2vh; */
 }
 .btn:hover{
     background-color: #D5E1FA;
@@ -99,4 +99,11 @@ a {
     justify-content: center;
     margin-top: 20px;
     color: #000;
+}
+
+a:hover {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #0000ff;
 }

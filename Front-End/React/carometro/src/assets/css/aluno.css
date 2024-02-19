@@ -29,7 +29,6 @@
   .box_aluno{
     display: flex;
     margin-top: 50px;
-    border: 1px solid #000;
   }
 
   .img{

@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+header {
+  border-bottom: 2px solid #000;
+}
 
 .container_header {
   height: 110px;

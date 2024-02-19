@@ -41,6 +41,7 @@ export default function Cadastrar() {
                 if (resposta.status === 200) {
                     console.log('Lista')
                     setListaAlunos(resposta.data)
+                    
                 }
             })
             .catch(erro => console.log(erro))

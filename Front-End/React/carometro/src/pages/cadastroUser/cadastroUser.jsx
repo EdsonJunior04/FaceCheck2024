@@ -36,9 +36,10 @@ export default function CadastroUser() {
             .then(response => {
                 if (response.status === 201) {
                     console.log('Aluno cadastrado');
-                    setEmail("Aluno Cadastrado!");
-                    setSenha(0);
+                    setCadastrado("Aluno Cadastrado!");
+                    setSenha('');
                     setNomeUsuario('');
+                    setEmail('');
                     setIsLoading(false)
 
                 }

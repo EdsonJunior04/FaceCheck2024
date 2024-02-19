@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FaceCheck.webAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a1e5e8b75c4d5624f477806293b85d06b755a56")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1c4ad0dc4f4182d6162062698bac2b8f09026dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("FaceCheck.webAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FaceCheck.webAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
