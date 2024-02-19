@@ -23,10 +23,9 @@
     width: 20vw;
     border-radius: 20vw;
     font-size: 1vw;
-    color: #3D8DF2;
     background-color: transparent;
     border: none;
-    border-bottom: #3D8DF2 2px solid;
+    border-bottom: #000 2px solid;
     padding: 8px;
     font-size: 16px;
     position: absolut;
@@ -34,9 +33,7 @@
     outline: 0;
 }
 
-.input::placeholder{
-    color: #3D8DF2;
-}
+
 
 .input_container {
     display: flex;
@@ -46,7 +43,7 @@
 }
 
 .container_adm {
-    background-color: #2E2E2E;
+    background-color: #F3F3F3;
     height: 850px;
 }
 
@@ -56,9 +53,8 @@
     width: 20vw;
     border-radius: 20vw;
     font-size: 1.5vw;
-    color: white;
-    background-color: #3D8DF2;
-    border: none;
+    /* background-color: #3D8DF2; */
+    border: 1px solid #000;
 }
 
 .btn_excluir {

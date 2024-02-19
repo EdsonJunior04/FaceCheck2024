@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\FaceCheck.webAPI.csproj": {}
+    "G:\\SENAI 2023\\3SM\\FaceCheck2024\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\FaceCheck.webAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\FaceCheck.webAPI.csproj": {
+    "G:\\SENAI 2023\\3SM\\FaceCheck2024\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\FaceCheck.webAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\FaceCheck.webAPI.csproj",
+        "projectUniqueName": "G:\\SENAI 2023\\3SM\\FaceCheck2024\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\FaceCheck.webAPI.csproj",
         "projectName": "FaceCheck.webAPI",
-        "projectPath": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\FaceCheck.webAPI.csproj",
+        "projectPath": "G:\\SENAI 2023\\3SM\\FaceCheck2024\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\FaceCheck.webAPI.csproj",
         "packagesPath": "C:\\Users\\Edson Junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\obj\\",
+        "outputPath": "G:\\SENAI 2023\\3SM\\FaceCheck2024\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Edson Junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,6 +95,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

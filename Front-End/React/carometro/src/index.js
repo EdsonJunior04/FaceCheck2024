@@ -23,7 +23,6 @@ import Cadastrar from './pages/cadastrar/cadastrar';
 import Excluir from './pages/excluir/excluir';
 import Alterar from './pages/alterar/alterar';
 import Sala from './pages/aluno/sala';
-import cadastroUser from './pages/cadastroUser/cadastroUser';
 import CadastroUser from './pages/cadastroUser/cadastroUser';
 
 const PermissaoAdm = ({ component: Component }) => (
@@ -58,12 +57,12 @@ const routing = (
         <Route exact path="/" component = {Login}/>
         <Route path ="/login" component ={Login}/>
         <PermissaoAdm exact path = "/adm" component = {Adm}/>
-        <PermissaoAdm path = "/cadastrar" component = {Cadastrar}/>
         <PermissaoAdm  path = "/adm/home" component={Home}/>
         <PermissaoAdm path = "/alterar" component={Alterar}/>
         <PermissaoAdm path = "/excluir" component={Excluir}/>
         <PermissaoColab path = "/home" component={Home}/>
-        {/* <Route path = "/cadastroUser" component = {CadastroUser}/> */}
+        <Route path = "/cadastrar" component = {Cadastrar}/>
+        <Route path = "/cadastroUser" component = {CadastroUser}/> 
         <Route path = "/Salas/1" component={Aluno}/>
         <Route path = "/Salas/2" component={Sala}/>
         <PermissaoColab path = "/aluno" component={Aluno}/>

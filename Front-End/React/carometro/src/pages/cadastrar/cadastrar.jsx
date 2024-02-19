@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 
-import foto_perfil from '../../assets/img/foto_perfil.png'
+// import foto_perfil from '../../assets/img/foto_perfil.png'
 import '../../assets/css/adm.css'
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
@@ -9,6 +9,8 @@ import api from "../../services/api"
 import Webcam from 'react-webcam'
 import { Sidebar } from "../../components/sidebar/SideBar";
 // import { WebcamCapture } from "../../components/webcam/Webcam";
+import { parseJwt } from "../../services/auth";
+import { SideBarHome } from "../../components/sidebar/SideBarHome";
 
 const videoConstraints = {
     width: 320,
@@ -18,7 +20,7 @@ const videoConstraints = {
 
 
 export default function Cadastrar() {
-    const [isLoading] = useState(false);
+    const [isLoading, setIsLoading] = useState(false);
     const [nomeAluno, setNomeAluno] = useState('');
     const [dataNascimento, setDataNascimento] = useState(new Date())
     const [idSala, setIdSala] = useState(0)
@@ -67,6 +69,7 @@ export default function Cadastrar() {
 
     function CadastrarAluno(event) {
         event.preventDefault();
+        setIsLoading(true)
         api.post('/Alunos', alunos, {
             headers: {
                 'Authorization': 'Bearer ' + localStorage.getItem('usuario-login')
@@ -80,11 +83,11 @@ export default function Cadastrar() {
                     setIdSala(0);
                     setNomeAluno('');
                     setIdRa(0);
-                    
+                    setIsLoading(false)
                 }
             }).catch(erro => {
                 console.log(erro)
-
+                setIsLoading(false)
                 setErroMensagem("Aluno não cadastrado!")
             })
     }
@@ -95,7 +98,13 @@ export default function Cadastrar() {
     return (
         <div >
             <Header />
-            <Sidebar />
+            {
+                parseJwt().role === "1" && <Sidebar />
+            }
+            {
+                parseJwt().role === "2" && <SideBarHome />
+            }
+
             <section className="container_adm" >
                 <div >
 

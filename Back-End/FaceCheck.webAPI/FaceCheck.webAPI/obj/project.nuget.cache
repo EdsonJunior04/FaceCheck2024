@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uv1kLoPLvJVxaA+BM4tiFPpGaGdivqOh47Y7pKf2sXZS2EjOO9/bK3BCU4UQgBY30gCUwr85nf/vhI2N1aCGdg==",
+  "dgSpecHash": "PT+7ZqbG4Psf+P3M8TgqI5Yx9rbaq2ShTV85ebfceIJK1lcMggOneDoj7rmpiAGr1MlX9bkdmJ0/MqC5uojrQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\FaceCheck.webAPI.csproj",
+  "projectFilePath": "G:\\SENAI 2023\\3SM\\FaceCheck2024\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\FaceCheck.webAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edson Junior\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
     "C:\\Users\\Edson Junior\\.nuget\\packages\\azure.storage.blobs\\12.11.0\\azure.storage.blobs.12.11.0.nupkg.sha512",
@@ -154,9 +154,20 @@
     "C:\\Users\\Edson Junior\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Edson Junior\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Edson Junior\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Edson Junior\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Edson Junior\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Edson Junior\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Azure.Core 1.22.0 depende de System.Diagnostics.DiagnosticSource (>= 4.6.0), mas System.Diagnostics.DiagnosticSource 4.6.0 não foi encontrado. A melhor correspondência aproximada de System.Diagnostics.DiagnosticSource 4.7.0 foi resolvida.",
+      "libraryId": "System.Diagnostics.DiagnosticSource",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
     {
       "code": "NU1902",
       "level": "Warning",

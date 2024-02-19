@@ -1,31 +1,39 @@
 .fundo_login {
     /* background-color: #164C92; */
-    background: linear-gradient(126.03deg, #164C92 18.93%, rgba(14, 70, 143, 0.9) 30.65%, rgba(14, 70, 143, 0.71) 41.02%, rgba(13, 70, 143, 0.61) 50.73%, rgba(13, 69, 143, 0.59) 58.1%, #0C458E 69.81%, #0C4DA1 83.21%);
+    /* background: linear-gradient(126.03deg, #164C92 18.93%, rgba(14, 70, 143, 0.9) 30.65%, rgba(14, 70, 143, 0.71) 41.02%, rgba(13, 70, 143, 0.61) 50.73%, rgba(13, 69, 143, 0.59) 58.1%, #0C458E 69.81%, #0C4DA1 83.21%); */
+    background-color: #FFFFFF;
     height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+.fundo_login img{
+    width: 30vw;
+    height: 30vh;
 }
 
 .imagem{
     display: flex;
     justify-content: center;
-    /* padding: 15vw; */
-    /* padding-left: 15vw; */
-    /* width: 20vw; */
-    /* height: 20vh; */
-
 }
 
-.logo{
-    margin-top: 10vh;
-    margin-left: 4.5vw;
-}
 
-.inputs{
+
+.forms {
+    width: 90vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 39vmax;
-    margin-top: 10vh;
 }
+
+.inputs  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 38.7vmax
+}
+
 
 /* .input_login{
     width: 15vw;
@@ -37,31 +45,31 @@
 .input_login {
     border: 0;
     width: 350px;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 1px solid #000;
     text-align: center;
     padding: 10px;
     background: transparent;
-    color: white;
+    color: #000;
     text-align: left;
     margin-top: 90px;
-    margin-left: 4vh;
+    /* margin-left: 4vh; */
+    outline: 0;
   }
   
   .input_login:hover,
   .input_login:focus {
     border: 0;
-    border-bottom: 1px solid #6f47ff;
-    
+    border-bottom: 1px solid #000;
     text-align: center;
     background: transparent;
-    color: white;
+    color: #000;
     text-align: left;
     outline: 0;
   }
 
   ::-webkit-input-placeholder {
     text-align: left;
-    color: white;
+    color: black;
   }
 
 .btn_login{
@@ -73,7 +81,7 @@
     color: white;
     background-color: #183861;
     border: none;
-    margin-left: 6.5vh;
+    margin-left: 3vh;
 }
 .btn:hover{
     background-color: #D5E1FA;
@@ -84,4 +92,11 @@
 
 .red{
     color:  red;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #000;
 }

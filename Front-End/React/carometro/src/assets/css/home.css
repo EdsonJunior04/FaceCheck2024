@@ -5,7 +5,7 @@
 }
 
 .container_home {
-  background-color: #2E2E2E;
+  background-color: #F3F3F3;
   height: 850px;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,6 @@
 
 .titulo_periodo {
   font-size: 24px;
-  color: white;
 }
 
 .container_sala {
@@ -31,7 +30,7 @@ a {
 
 .container_sala a {
   width: 200px;
-  background-color: #3b86cc;
+  background-color: #000;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -58,5 +57,5 @@ a {
 
 .box_sala :hover{
   background-color: white;
-  color: #3b86cc;
+  color: #000;
 }

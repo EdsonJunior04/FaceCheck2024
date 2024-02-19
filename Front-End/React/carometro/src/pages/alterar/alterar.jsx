@@ -22,12 +22,12 @@ export default function Cadastrar() {
     const [isLoading, setIsLoading] = useState(false);
     const [imgPerfil, setImgPerfil] = useState('')
     const [idSala, setIdSala] = useState(0)
-    const [idRa, setIdRa] = useState(0)
+    // const [idRa, setIdRa] = useState(0)
     const listaTurma = [1, 2]
     const [idAlunos, setIdAlunos] = useState(0)
     const [listaAlunos, setListaAlunos] = useState([])
     const [imagem, setImagem] = useState('')
-    const [image, setImage] = useState('');
+    const [image] = useState('');
 
 
     function BuscarAlunos() {
@@ -77,10 +77,7 @@ export default function Cadastrar() {
         event.preventDefault();
         console.log('Imagem')
         console.log(image)
-        let alunos = {
-            idSala: idSala,
-            imagem: imagem
-        }
+        
 
         api.put('/Alunos/' + idAlunos, {
             idSala: idSala,

@@ -20,9 +20,7 @@
   width: 15vw;
   border-radius: 20vw;
   font-size: 1.5vw;
-  color: white;
-  background-color: #3D8DF2;
-  border: none;
+  border: 1px solid #000;
   cursor: pointer;
   margin-left: 0.5vw;
 }

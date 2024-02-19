@@ -5,7 +5,7 @@
   }
   
   .container_aluno{
-      background-color: #2E2E2E;
+      background-color: #F3F3F3;
       min-height: 850px;
       display: flex;
       flex-direction: column;
@@ -14,12 +14,11 @@
   
   .titulo_aluno{
       font-size: 24px;
-      color: white;
   }
   
   .box_aluno div {
     width: 300px;
-    background-color: #3b86cc;
+    background-color: #F3F3F3;
     height: 180px;
     display: flex;
     justify-content: space-evenly;
@@ -30,6 +29,7 @@
   .box_aluno{
     display: flex;
     margin-top: 50px;
+    border: 1px solid #000;
   }
 
   .img{
@@ -42,11 +42,12 @@
 .box_dados{
   display: flex;
   flex-direction: column;
+  
 }
 
 .box_dados p{
-  color: white;
   font-size: 14px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width: 50%;
+  
 }

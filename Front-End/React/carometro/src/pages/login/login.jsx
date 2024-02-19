@@ -92,6 +92,7 @@ export default function Login() {
 
 
                         <span className='red'>{erroMensagem === '' ? '' : 'Email ou senha inválidos'}</span>
+                        <a href="/CadastroUser">Cadastrar-se</a>
                         {
                             isLoading === true && (
                                 <button

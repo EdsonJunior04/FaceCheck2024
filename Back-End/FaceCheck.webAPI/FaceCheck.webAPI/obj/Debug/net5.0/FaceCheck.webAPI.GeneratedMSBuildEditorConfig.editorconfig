@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FaceCheck.webAPI
-build_property.ProjectDir = C:\Users\Edson Junior\Desktop\Carometro\Carometro\Back-End\FaceCheck.webAPI\FaceCheck.webAPI\
+build_property.ProjectDir = G:\SENAI 2023\3SM\FaceCheck2024\Back-End\FaceCheck.webAPI\FaceCheck.webAPI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

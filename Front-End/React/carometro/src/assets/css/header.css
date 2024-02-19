@@ -6,7 +6,6 @@
 
 .container_header {
   height: 110px;
-  background-color: #3b86cc;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -14,7 +13,7 @@
 
 .header_logo {
   width: 120px;
-  height: 60px;
+  height: 110px;
 }
 
 .grid_header{
@@ -30,5 +29,4 @@
     background-color: transparent;
     border: none;
     font-size: 24px;
-    color: white;
 }

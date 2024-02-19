@@ -5,12 +5,11 @@ import api from "../../services/api";
 
 import logo from '../../assets/img/FaceCheck.svg'
 import '../../assets/css/login.css'
-import { parseJwt } from "../../services/auth";
+
 
 
 export default function CadastroUser() {
     const [nomeUsuario, setNomeUsuario] = useState('');
-    const [idTipoU, setIdTipoU] = useState(0);
     const [email, setEmail] = useState('');
     const [senha, setSenha] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -20,6 +19,7 @@ export default function CadastroUser() {
 
     function cadastro(event) {
         event.preventDefault();
+        setIsLoading(true)
 
         let user = {
             idTipoU: 2,
@@ -39,59 +39,16 @@ export default function CadastroUser() {
                     setEmail("Aluno Cadastrado!");
                     setSenha(0);
                     setNomeUsuario('');
+                    setIsLoading(false)
 
                 }
             }).catch(erro => {
                 console.log(erro)
-
+                setIsLoading(false)
                 setErroMensagem("Aluno não cadastrado!")
             })
     }
 
-    // let history = useHistory();
-
-    // function efetuarLogin(event) {  
-
-    //     event.preventDefault();
-
-    //     setErroMensagem('')
-    //     setIsLoading(true)
-
-    //     api.post('/Login', {
-    //         nomeUsuario: 
-    //         email: email,
-    //         senha: senha
-    //     })
-
-    //         .then((response) => {
-    //             if (response.status === 200) {
-    //                 localStorage.setItem('usuario-login', response.data.token)
-
-    //                 setSenha('')
-
-    //                 setEmail('')
-
-    //                 setIsLoading(false)
-
-    //                 if (parseJwt().role === "1") {
-    //                     history.push('/adm')
-    //                 }
-    //                 if (parseJwt().role === "2") {
-    //                     history.push('/home')
-    //                 }
-
-    //             }
-    //         })
-    //         .catch(erro => {
-    //             console.log(erro)
-
-    //             // setSenha('')
-
-    //             setErroMensagem("E-mail e/ou Senha inválidos")
-
-    //             setIsLoading(false)
-    //         })
-    // }
 
     return (
         <div >
@@ -103,9 +60,18 @@ export default function CadastroUser() {
                         alt="Logo"
                     />
                 </div>
-                <form onSubmit={cadastro} >
+                <form className="forms" onSubmit={cadastro} >
                     <div className="inputs">
 
+                        <input
+                            type="text"
+                            name="nomeUsuario"
+                            placeholder="Digite seu nome"
+                            className="input_login"
+                            onChange={(e) => setNomeUsuario(e.target.value)}
+                            value={nomeUsuario}
+                        />
+                        
                         <input
                             type="email"
                             name="email"
@@ -127,6 +93,7 @@ export default function CadastroUser() {
 
                         <span className='red'>{erroMensagem === '' ? '' : 'Aluno não cadastrado'}</span>
                         <span className='green'>{cadastrado === '' ? '' : 'Aluno cadastrado!'}</span>
+                        <a href="/">Já tenho cadastro</a>
                         {
                             isLoading === true && (
                                 <button
@@ -153,7 +120,7 @@ export default function CadastroUser() {
                                             : ''
                                     }
                                 >
-                                    Login
+                                    Cadastrar-se
                                 </button>
                             )
                         }
