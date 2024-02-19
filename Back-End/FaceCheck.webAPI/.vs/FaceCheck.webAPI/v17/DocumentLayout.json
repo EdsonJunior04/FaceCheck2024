@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA0C7D30-ED68-401A-AD6C-AAE222F78C57}|FaceCheck.webAPI\\FaceCheck.webAPI.csproj|c:\\users\\edson junior\\desktop\\carometro\\carometro\\back-end\\facecheck.webapi\\facecheck.webapi\\utils\\upload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0C7D30-ED68-401A-AD6C-AAE222F78C57}|FaceCheck.webAPI\\FaceCheck.webAPI.csproj|solutionrelative:facecheck.webapi\\utils\\upload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA0C7D30-ED68-401A-AD6C-AAE222F78C57}|FaceCheck.webAPI\\FaceCheck.webAPI.csproj|c:\\users\\edson junior\\desktop\\carometro\\carometro\\back-end\\facecheck.webapi\\facecheck.webapi\\context\\carometrocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0C7D30-ED68-401A-AD6C-AAE222F78C57}|FaceCheck.webAPI\\FaceCheck.webAPI.csproj|solutionrelative:facecheck.webapi\\context\\carometrocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA0C7D30-ED68-401A-AD6C-AAE222F78C57}|FaceCheck.webAPI\\FaceCheck.webAPI.csproj|c:\\users\\edson junior\\desktop\\carometro\\carometro\\back-end\\facecheck.webapi\\facecheck.webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA0C7D30-ED68-401A-AD6C-AAE222F78C57}|FaceCheck.webAPI\\FaceCheck.webAPI.csproj|solutionrelative:facecheck.webapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Upload.cs",
+              "DocumentMoniker": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\Utils\\Upload.cs",
+              "RelativeDocumentMoniker": "FaceCheck.webAPI\\Utils\\Upload.cs",
+              "ToolTip": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\Utils\\Upload.cs",
+              "RelativeToolTip": "FaceCheck.webAPI\\Utils\\Upload.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T11:40:57.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "FaceCheck.webAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "FaceCheck.webAPI\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T11:19:36.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarometroContext.cs",
+              "DocumentMoniker": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\Context\\CarometroContext.cs",
+              "RelativeDocumentMoniker": "FaceCheck.webAPI\\Context\\CarometroContext.cs",
+              "ToolTip": "C:\\Users\\Edson Junior\\Desktop\\Carometro\\Carometro\\Back-End\\FaceCheck.webAPI\\FaceCheck.webAPI\\Context\\CarometroContext.cs",
+              "RelativeToolTip": "FaceCheck.webAPI\\Context\\CarometroContext.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA0wB4AAABrAQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T23:49:11.299Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
