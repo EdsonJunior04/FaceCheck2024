@@ -26,7 +26,7 @@ namespace FaceCheck.webAPI.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "1")]
+        //[Authorize(Roles = "1")]
         
         public IActionResult Cadastrar(Usuario novoUsuario)
         {
